@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxq.mapper.RoleMapper">
+  <resultMap id="BaseResultMap" type="com.zxq.domain.Role">
+    <id column="rid" jdbcType="BIGINT" property="rid" />
+    <result column="rnum" jdbcType="INTEGER" property="rnum" />
+    <result column="rname" jdbcType="VARCHAR" property="rname" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from role
+    where rid = #{rid,jdbcType=BIGINT}
+  </delete>
+  <delete id="deletePermission">
+    delete from r_p where rid=#{rid}
+  </delete>
+
+  <insert id="insert" parameterType="com.zxq.domain.Role" useGeneratedKeys="true"
+          keyColumn="rid" keyProperty="rid">
+    insert into role (rid, rnum, rname
+      )
+    values (#{rid,jdbcType=BIGINT}, #{rnum,jdbcType=INTEGER}, #{rname,jdbcType=VARCHAR}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.zxq.domain.Role">
+    update role
+    set rnum = #{rnum,jdbcType=INTEGER},
+      rname = #{rname,jdbcType=VARCHAR}
+    where rid = #{rid,jdbcType=BIGINT}
+  </update>
+  <update id="updateRoleAndPermission">
+    insert into  r_p(rid,pid) values (#{rid},#{pid})
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select rid, rnum, rname
+    from role
+    where rid = #{rid,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select rid, rnum, rname
+    from role
+  </select>
+    <select id="getRoleByEid" resultType="com.zxq.domain.Role">
+      select * from role where rid in (select rid from e_r where eid=#{eid});;
+    </select>
+</mapper>

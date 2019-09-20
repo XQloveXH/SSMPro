@@ -16,6 +16,8 @@ public class DepartmentController {
     @RequestMapping("departList")
     @ResponseBody
     public List<Department> departList(){
+        System.out.println("测试Github");
         return departmentService.getAllDepartment();
+
     }
 }

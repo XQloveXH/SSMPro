@@ -244,9 +244,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="271" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="75" />
+    <option name="y" value="36" />
     <option name="width" value="1775" />
     <option name="height" value="1005" />
   </component>
@@ -282,9 +282,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -330,7 +331,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.93">
+  <component name="RunManager" selected="Application.TestGitHub">
+    <configuration name="TestGitHub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxq.test.TestGitHub" />
+      <module name="SSMMavenPro1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxq.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSMMavenPro1" />
       <extension name="coverage">
@@ -472,9 +486,11 @@
       <item itemvalue="JUnit.Test1" />
       <item itemvalue="JUnit.Test1.test1" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.93" />
+      <item itemvalue="Application.TestGitHub" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestGitHub" />
         <item itemvalue="JUnit.Test1.test1" />
         <item itemvalue="JUnit.Test1" />
       </list>

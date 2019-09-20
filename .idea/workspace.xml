@@ -76,15 +76,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/web/DepartmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="178">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="150">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="n#properties#0;n#project#0;n#!!top" />
@@ -106,11 +104,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/test/TestGitHub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/utils/MyBtilsUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -126,10 +146,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/result.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zxq/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/application-mybatis.xml" />
@@ -150,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zxq/service/CustomerServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zxq/service/DepartmentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zxq/service/impl/DepartmentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zxq/web/DepartmentController.java" />
         <option value="$PROJECT_DIR$/src/test/java/test1/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zxq/utils/MyBtilsUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zxq/domain/AjaxRes.java" />
@@ -180,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zxq/web/RoleController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zxq/test/TestGitHub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zxq/web/DepartmentController.java" />
       </list>
     </option>
   </component>
@@ -245,40 +268,83 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="75" />
-    <option name="y" value="36" />
+    <option name="x" value="-180" />
+    <option name="y" value="57" />
     <option name="width" value="1775" />
     <option name="height" value="1005" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SSMMavenPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMMavenPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SSMMavenPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMMavenPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SSMMavenPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMMavenPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zxq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zxq" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zxq" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zxq" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -483,10 +549,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestGitHub" />
       <item itemvalue="JUnit.Test1" />
       <item itemvalue="JUnit.Test1.test1" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.93" />
-      <item itemvalue="Application.TestGitHub" />
     </list>
     <recent_temporary>
       <list>
@@ -513,6 +579,7 @@
       <workItem from="1567504153101" duration="4867000" />
       <workItem from="1567574302189" duration="24915000" />
       <workItem from="1567641314811" duration="4911000" />
+      <workItem from="1568973896535" duration="839000" />
     </task>
     <servers />
   </component>
@@ -540,13 +607,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58086000" />
+    <option name="totallyTimeSpent" value="58925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="217" width="1420" height="804" extended-state="1" />
+    <frame x="60" y="29" width="1420" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.28487518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.28928047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5021834" side_tool="true" weight="0.25" />
@@ -555,7 +622,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3466872" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34567901" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,11 +689,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/学习资料/java大一学习资料/框架学习/JavaEE就业实战/05-SSM项目实战-EasyUI+Maven+Shiro权限系统/权限项目/代码/代码备份/05-PromissionPro保存用户/src/main/webapp/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-866" />
-      </provider>
-    </entry>
     <entry file="file://E:/学习资料/java大一学习资料/框架学习/JavaEE就业实战/05-SSM项目实战-EasyUI+Maven+Shiro权限系统/权限项目/代码/代码备份/05-PromissionPro保存用户/src/main/webapp/static/js/employee.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -662,13 +724,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test1/Test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/utils/MyBtilsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/domain/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1023,21 +1078,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/web/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="150">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="n#properties#0;n#project#0;n#!!top" />
@@ -1052,7 +1095,35 @@
     <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/test/TestGitHub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/utils/MyBtilsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxq/web/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

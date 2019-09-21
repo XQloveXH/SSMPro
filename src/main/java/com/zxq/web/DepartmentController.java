@@ -14,6 +14,7 @@ public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
     @RequestMapping("departList")
+
     @ResponseBody
     public List<Department> departList(){
         System.out.println("测试Github");
